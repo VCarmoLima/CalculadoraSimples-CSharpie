@@ -68,7 +68,7 @@ namespace Calculator
             Console.WriteLine("A soma dos dois valores resultou em: {0}", soma);
 
             Console.ReadKey();
-            //Menu();
+            Menu();
             }
         
         static void Subtracao()
@@ -86,7 +86,7 @@ namespace Calculator
             Console.WriteLine("A subtração dos dois valores resultou em: {0}", subtracao);
 
             Console.ReadKey();
-            //Menu();
+            Menu();
             }
 
         static void Divisao()
@@ -115,7 +115,7 @@ namespace Calculator
                 }
 
             Console.ReadKey();
-            //Menu();
+            Menu();
             }
 
         static void Multiplicacao()
@@ -134,7 +134,7 @@ namespace Calculator
             Console.WriteLine("A multiplicação dos dois valores resultou em: {0}", multiplicacao);
 
             Console.ReadKey();
-            //Menu();
+            Menu();
             }
         }
     }
